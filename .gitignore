@@ -1,0 +1,30 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Built binaries
+goserver
+L-Docker
+
+# Go test/build files
+*.test
+*.out
+coverage.out
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
